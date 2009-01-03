@@ -19,6 +19,7 @@ Simple G pages should be perfectly usable, and all the links will still work.
 
 http://www.simplestation.com
 
+----
 
 
 =Setup=
@@ -27,7 +28,7 @@ To get going with this you're going to need:
  # A Google(R) or Google Apps(R) account
  # Apache with `mod_php5` (or equivalent php5.1+ webhosting capabilities)
 
-==Step 1==
+===Step 1===
 From your Google Account, you'll need the ID of the calendar you want to
 display. To quote the Google documentation:
  "The calendar ID is available on the calendar settings page, next to the
@@ -41,13 +42,14 @@ Account. Otherwise, you'll need the username and password for the account, too.
 Take this information (calendar id, account, password) and fill in the
 appropriate sections of the `"./config.ini"` file in this directory.
 
-==Step 2==
+===Step 2===
 Set up Apache to serve the `"./public"` subdirectory as the `DocumentRoot`.
 
-==Step 3==
+===Step 3===
 Voila! You should be able to connect to `http://localhost/` or wherever you
 are hosting from, and view the events of your calendar using Simple G.
 
+----
 
 
 =Customization=
@@ -80,6 +82,7 @@ If you're happy with the calendar's functionality, but would like to change
 the look of it, most changes can be accomplished by editing the view scripts
 in `"./views/layouts/"` and `"./views/scripts/"` and the CSS in `"./public/styles/"`
 
+----
 
 
 =Further Customization and Integration with an Existing ZF Application=
@@ -100,6 +103,7 @@ with the concepts like Views, View Helpers, Controllers and Routes.
 Simple G only uses one controller, and has a very simple bootstrap file. All
 Routes are contained within the bootstrap file at `"./public/index.php"`.
 
+----
 
 
 =Acknowledgements=
@@ -127,6 +131,7 @@ MooTools, and has some modifications by Rhydian Roberts
 (http://www.voidsystems.co.uk/moodalbox) and some custom Simple Station
 edits.
 
+----
 
 
 =License=
