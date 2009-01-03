@@ -1,6 +1,4 @@
 #labels Phase-Deploy,Featured
-README.txt last modified by Anthony Theocharis on 02/01/2008
-
 =Simple G=
 Simple G is a Zend Framework based PHP application that displays
 Google Calendars in a flexible, easy-to-integrate-into-your-site way!
